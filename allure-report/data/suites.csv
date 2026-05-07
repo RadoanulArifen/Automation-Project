@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 07 20:59:14 GMT+06:00 2026","Thu May 07 20:59:16 GMT+06:00 2026","1934","","login.spec.js","","","","Q1 - Locked user login test",""

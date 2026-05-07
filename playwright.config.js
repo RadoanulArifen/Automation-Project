@@ -6,16 +6,19 @@ module.exports = defineConfig({
 
   timeout: 60000,
 
-  reporter: [
-    ['list'],
-    ['html']
-  ],
+reporter: [
+  ['list'],
+  ['html'],
+  ['allure-playwright']
+],
 
   use: {
+    browserName: 'chromium',
     headless: false,
-    screenshot: 'only-on-failure',
-    video: 'retain-on-failure',
-    trace: 'on-first-retry'
-  },
+
+    launchOptions: {
+      executablePath: '/usr/bin/google-chrome'
+    }
+  }
 
 });
