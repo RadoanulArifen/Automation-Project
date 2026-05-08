@@ -1,1 +1,1 @@
-[{"uid":"b827dafd0fe9a432","name":"Q1 - Locked user login test","time":{"start":1778166426701,"stop":1778166427771,"duration":1070},"status":"passed","severity":"normal"}]
+[{"uid":"fce04a78ee1a0cf3","name":"Q1 - Locked user login test","time":{"start":1778248741066,"stop":1778248744327,"duration":3261},"status":"passed","severity":"normal"},{"uid":"d942628a482d6d48","name":"Q2 - Complete purchase flow","time":{"start":1778248741069,"stop":1778248741215,"duration":146},"status":"failed","severity":"normal"}]
