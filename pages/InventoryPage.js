@@ -9,20 +9,26 @@ class InventoryPage {
     }
 
     async resetAppState() {
-        await this.openMenu();
 
-        await this.page.waitForTimeout(1000);
+        await this.page.click('#react-burger-menu-btn');
+
+        await this.page.waitForSelector('#reset_sidebar_link', {
+            state: 'visible'
+        });
 
         await this.page.click('#reset_sidebar_link');
-    }
+}
 
     async logout() {
-        await this.openMenu();
 
-        await this.page.waitForTimeout(1000);
+        await this.page.click('#react-burger-menu-btn');
+
+        await this.page.waitForSelector('#logout_sidebar_link', {
+            state: 'visible'
+        });
 
         await this.page.click('#logout_sidebar_link');
-    }
+}
 
     async addBackpack() {
         await this.page.click('#add-to-cart-sauce-labs-backpack');

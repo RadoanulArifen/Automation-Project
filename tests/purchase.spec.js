@@ -45,8 +45,4 @@ test('Q2 - Complete purchase flow', async ({ page }) => {
     expect(successMessage).toContain(
         'Thank you for your order!'
     );
-
-    await inventory.resetAppState();
-
-    await inventory.logout();
 });

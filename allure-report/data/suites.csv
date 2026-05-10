@@ -1,3 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri May 08 19:59:01 GMT+06:00 2026","Fri May 08 19:59:04 GMT+06:00 2026","3261","","login.spec.js","","","","Q1 - Locked user login test",""
-"failed","Fri May 08 19:59:01 GMT+06:00 2026","Fri May 08 19:59:01 GMT+06:00 2026","146","","purchase.spec.js","","","","Q2 - Complete purchase flow",""
+"passed","Sun May 10 20:52:58 GMT+06:00 2026","Sun May 10 20:53:11 GMT+06:00 2026","12895","","filterPurchase.spec.js","","","","Q3 - Filter and purchase flow",""
+"passed","Sun May 10 20:52:25 GMT+06:00 2026","Sun May 10 20:52:27 GMT+06:00 2026","2271","","login.spec.js","","","","Q1 - Locked user login test",""
+"passed","Sun May 10 20:52:41 GMT+06:00 2026","Sun May 10 20:52:45 GMT+06:00 2026","3643","","purchase.spec.js","","","","Q2 - Complete purchase flow",""
